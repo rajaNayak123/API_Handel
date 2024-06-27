@@ -1,8 +1,23 @@
-# React + Vite
+# API calls in React JS using Axios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*z-KcY61FkyHaGllJa2xvmw.png">
 
-Currently, two official plugins are available:
+## Axios is a popular JavaScript library used to make HTTP requests to external resources. It is often used in React applications to interact with a server or API. Here are the steps to use Axios in a React application:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###     Install Axios:
+
+The first step is to install Axios in your React application using npm or yarn. Open a terminal and run the following command:
+
+        👉 npm install axios
+
+###     Import Axios:
+
+Next, you need to import Axios into your React component where you want to use it. You can do this by adding the following line at the top of your component file:
+
+        👉 import axios from 'axios';
+
+###     Use Axios with React hooks:
+
+You can also use Axios with React hooks, such as useState and useEffect. Here's an example of how to make a GET request using the useEffect hook:
+
+![Alt text](<Screenshot 2024-06-27 at 6.13.12 PM.png>)

@@ -4,10 +4,10 @@ import axios from 'axios'
 
 function App() {
   const [products, setProducts] = useState([]);
-  const [error, setError] = useState(false)
+  const [error, setError] = useState(false) 
   const [loading, setLoading] = useState(false)
   useEffect(() => {
-    (async () => {
+    (async () => {  
       try {
         setLoading(true);
         setError(false)
